@@ -1,0 +1,33 @@
+@import url("cabecalho.css");
+@import url("rodape.css");
+@import url("artigoprincipal.css");
+@import url("botao.css");
+@import url("artigosrecentes.css");
+@import url("posts.css");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8eaf1;
+    color: #333;
+}
+
+.introducao {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #f8eaf1 ;
+    color: #333;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: .5rem;
+}
+
+.introducao h2{
+    color: #c77dbb;
+}

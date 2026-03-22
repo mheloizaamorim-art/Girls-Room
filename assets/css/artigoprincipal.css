@@ -1,0 +1,60 @@
+.artigo-principal {
+    position: relative;       
+    background-color: #e8cfe8;
+    padding: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;   
+}
+
+.classificacao-artigoprincipal {
+    position: absolute;
+    top: .8rem;
+    left: 1rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #f5e0f5;
+    padding: 0.3rem 0.8rem;
+    border-radius: 0.8rem;
+    color: #3a2e39;
+    font-size: 1rem;
+}
+
+.classificacao-artigoprincipal i {
+    color: #7a6a78;
+}
+
+.conteudo-artigo {
+    display: flex;             
+    gap: 1.5rem;
+}
+
+.imagem-artigo {
+    width: 200px;              
+    height: auto;
+    border-radius: 0.8rem;
+    object-fit: cover;
+}
+
+.texto-artigo {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.metadados {
+    display: flex;
+    gap: 2rem;              
+    align-items: center;
+}
+
+.metadados div {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;             
+}
+
+.metadados i {
+    color: #7a6a78;
+}

@@ -1,0 +1,66 @@
+.secao-artigos-recentes {
+    margin-top: 3rem;          
+    padding: 0.1rem;            
+}
+
+.titulo-secao {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #3a2e39;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;                
+}
+
+
+.container-artigos {
+    display: flex;               
+    gap: 1.5rem;                
+    flex-wrap: wrap;            
+    justify-content: flex-start; 
+}
+
+.artigo-recente {
+    background-color: #f4e5f4;
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 250px;                 
+    display: flex;
+    flex-direction: column;       
+    gap: 0.8rem;                 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+}
+
+.artigo-recente img {
+    width: 100%;                  
+    border-radius: 0.8rem;
+    object-fit: cover;
+}
+
+
+.titulo-artigorecente {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.conteudo-artigorecente {
+    font-size: 0.9rem;
+    color: #3a2e39;
+}
+
+.metadados {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.metadados div {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.metadados i {
+    color: #7a6a78;
+}

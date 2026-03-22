@@ -1,0 +1,91 @@
+.o-que-estao-dizendo {
+    margin-top: 3rem;
+    padding: 0 1rem;
+}
+
+.postagens {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #3a2e39;
+}
+
+.lateral {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.posts {
+    display: flex;
+    gap: 1rem;
+    background-color: #f4e5f4;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.foto-de-perfil {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #c77dbb;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    flex-shrink: 0;
+}
+
+.conteudo-post-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.info-usuario {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.info-usuario h4.nome {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #3a2e39;
+}
+
+.info-usuario p.user .info-usuario p.horas {
+    margin: 0;
+    font-size: 0.8rem;
+    color: #7a6a78;
+}
+
+.conteudo-post {
+    font-size: 0.9rem;
+    color: #3a2e39;
+}
+
+.interacoes {
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.5rem;
+    color: #7a6a78;
+}
+
+.interacoes span {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    cursor: pointer;
+}
+
+.interacoes i {
+    color: #c77dbb;
+}

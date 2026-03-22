@@ -1,0 +1,24 @@
+.cabecalho{
+    height: 5rem;
+    background-color:  #c77dbb;
+    display: flex;
+    align-items: center;
+    padding: .2rem;
+    justify-content: space-between;
+}
+
+.cabecalho h1 a {
+    text-decoration: none;
+    font-size: 2.5rem;
+}
+
+.cabecalho ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+}
+
+.cabecalho ul li a {
+    text-decoration: none;
+}

@@ -9,8 +9,10 @@ Breve descrição sobre seu projeto:
 
 
 Foto do wireframe (feito pelo figma):
-![alt text](Wireframe1.png)
-![alt text](Wireframe2.png)
-![alt text](Wrireframe3.png)
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
 
 Foto da vizualização Web do projeto em html e css:
+![alt text](image-3.png)
+![alt text](image-4.png)

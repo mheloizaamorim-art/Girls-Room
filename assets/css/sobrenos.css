@@ -1,0 +1,42 @@
+.sobre-nos{
+    max-width: 800px;
+    width: 100%;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 16px;
+}
+
+.sobre-nos img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+.sobre-nos h2{
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.sobre-nos h2 span{
+    color: var(--rosa-escuro);
+}
+
+.sobre-nos p{
+    text-align: justify;
+}
+
+.sobre-nos p strong{
+    color: var(--rosa-escuro);
+}
+
+.linha-sobre{
+    height: 2px;
+    background: var(--rosa-escuro);
+    opacity: 50%;
+    margin: 20px auto;
+    width: 80%;
+}

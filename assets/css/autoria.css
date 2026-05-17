@@ -1,0 +1,42 @@
+.autoria{
+    max-width: 500px;
+    margin: 20px auto  30px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.autoria h3{
+    color: var(--roxo-fundo);
+    font-weight: 700;
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    display: inline-flex;
+    align-items: center ;
+    gap: 10px;
+}
+
+.autoria h3 i{
+    color: var(--roxo-fundo);
+}
+
+.autoria a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    background-color: var(--rosa-pastel);
+    color: var(--rosa-escuro);
+    font-size: 1.4rem;
+    border-radius: 50%;
+    margin: 0 8 px;
+    transition: all 0.3 ease;
+    text-decoration: none;
+}
+
+.autoria a:hover{
+    background-color: var(--roxo-fundo);
+    color: #ffffff;
+}

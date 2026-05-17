@@ -1,0 +1,81 @@
+.carousel{
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.carousel-item img /* (Ajuda as imagens a manterem um padrão e não ficarem mudando de tamanho) */
+{
+    height: 100%;
+    min-height: 450px;
+    object-fit: cover;
+}
+
+.carrosel-card{
+    margin-top: 40px;
+    background-color: var(--rosa-escuro);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.conteudo-card{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titulo-artigo{
+    color: var(--roxo-fundo);
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.autor, .data{
+    font-size:.95rem ;
+    color: var(--rosa-pastel);
+    margin-bottom: 8px;
+}
+
+.autor i, .data i{
+    color: var(--roxo-fundo);
+    margin-right: 8px;
+}
+
+.resumo-artigo{
+    color: var(--rosa-pastel);
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.conteudo-card .btn-primary {
+    background-color: var(--rosa-medio); 
+    border-color: var(--rosa-escuro);     
+    color: #ffffff;                       
+    border-radius: 8px;                   
+    font-weight: 600;                     
+    transition: all 0.3s ease;            
+}
+
+.conteudo-card .btn-primary:hover {
+    background-color: var(--roxo-fundo);  
+    border-color: var(--roxo-fundo);      
+    color: #ffffff;                       
+}
+
+.tag-destaque{
+    display: inline-flex;
+    align-items: center;
+    background-color: var(--roxo-fundo);
+    color: #ffffff;
+    padding: 6px 16px;
+    font-size:.8rem;
+    font-weight: 600;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    width: fit-content;
+}
+
+.tag-destaque i{
+    margin-right: 6px;
+    color: #ffffff;
+}

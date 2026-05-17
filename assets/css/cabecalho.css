@@ -1,24 +1,13 @@
-.cabecalho{
-    height: 5rem;
-    background-color:  #c77dbb;
-    display: flex;
-    align-items: center;
-    padding: .2rem;
-    justify-content: space-between;
+.navbar{
+    background-color: white;
+     box-shadow: 0 4px 15px rgba(199, 125, 187, 0.1);
 }
+ .navbar-brand{
+    color: var(--rosa-escuro);
+    font-weight: 800;
+    font-size: 1.5rem;
+ }
 
-.cabecalho h1 a {
-    text-decoration: none;
-    font-size: 2.5rem;
-}
-
-.cabecalho ul {
-    list-style: none;
-    display: flex;
-    gap: 1rem;
-    margin: 0;
-}
-
-.cabecalho ul li a {
-    text-decoration: none;
+.navbar-brand .room{
+    color: var(--roxo-fundo);
 }

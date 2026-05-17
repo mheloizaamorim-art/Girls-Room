@@ -1,13 +1,24 @@
-.rodape {
-    margin-top: 3rem;          
-    padding: 0 1rem;
-    height: auto;
-    background-color: #c77dbb;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    padding: .5rem;
-    color: #eee;
+.rodape{
+    background-color: white;
+    padding: 12px 0;
+    margin-top: 80px;
+    text-align: center;
+    width: 100%;
 }
+
+.linha-rodape{
+    height: 1px;
+    background: var(--roxo-fundo);
+    opacity: 50%;
+    margin: 20px auto;
+    width: 50%;
+}
+
+.texto-principal-rodape{
+    color: var(--rosa-escuro);
+}
+
+footer p{
+    color: var(--roxo-fundo);
+}
+

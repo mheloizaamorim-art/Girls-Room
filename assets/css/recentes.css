@@ -1,0 +1,88 @@
+.artigos-recentes{
+    max-width: 1140px;
+    margin: 60px auto 20px auto;
+    padding: 0 15px;
+}
+
+.artigos-recentes h2{
+    color: var(--roxo-fundo);
+    font-weight: 400;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.artigos-recentes h2 i{
+    color: var(--rosa-escuro);
+}
+
+.card-recente{
+    margin-bottom: 30px;
+}
+
+.card-recente .card {
+    background-color: #ffffff; 
+    border: none;            
+    border-radius: 12px;     
+    overflow: hidden; /* (corta a imagem no topo para ela seguir o arredondado da caixa) */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-recente .card-body{
+    padding: 20px;
+}
+
+.card-recente .card:hover {
+    transform: translateY(-5px); /* (quando o mouse passa por cima, o card salta 5px para cima) */
+}
+
+.card-recente .card-img-top {
+    height: 200px;      
+    object-fit: cover; 
+}
+
+.card-recente .card-title {
+    color: var(--roxo-fundo); 
+    font-weight: 700;         
+    margin-top: 5px;       
+}
+
+.card-recente .badge {
+    background-color: var(--rosa-medio) !important;
+    color: var(--roxo-fundo);                       
+    padding: 6px 12px;                             
+    font-size: 0.75rem;                            
+    font-weight: 600;
+    border-radius: 6px;                            
+    margin-bottom: 10px;                            
+}
+
+.card-recente .card-text {
+    color: var(--texto);      
+    font-size: 0.95rem;      
+}
+
+.card-recente .text-muted {
+    color: var(--texto) !important; 
+    font-size: 0.85rem;             
+}
+
+.card-recente .text-muted i {
+    color: var(--rosa-escuro); 
+    margin-right: 5px;         
+}
+
+.card-recente .btn-outline-primary {
+    color: var(--rosa-escuro);        
+    border-color: var(--rosa-escuro); 
+    font-weight: 600;                 
+    border-radius: 6px;               
+    transition: all 0.3s ease;        
+}
+
+.card-recente .btn-outline-primary:hover {
+    background-color: var(--roxo-fundo); 
+    border-color: var(--roxo-fundo);     
+    color: #ffffff;                     
+}

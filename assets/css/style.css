@@ -1,33 +1,33 @@
+@import url("autoria.css");
 @import url("cabecalho.css");
+@import url("detalhes.css");
+@import url("introducao.css");
+@import url("principais.css");
+@import url("recentes.css");
 @import url("rodape.css");
-@import url("artigoprincipal.css");
-@import url("botao.css");
-@import url("artigosrecentes.css");
-@import url("posts.css");
+@import url("sobrenos.css");
+
+:root {
+    --rosa-pastel: #fff0f6;
+    --rosa-medio: #f8bbd0;
+    --rosa-escuro: #c77dbb;
+    --roxo-fundo: #4a314d;
+    --texto: #5a445b;
+}
+
+
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f8eaf1;
-    color: #333;
-}
+body{
+    background-color: var(--rosa-pastel);
+    color: var(--texto);
+    font-family: 'Poppins', 'Segoe UI', sans-serif;
+    height: 100%; /* (Com o objetivo de empurrar o rodapé para baixo) */
 
-.introducao {
-    height: auto;
     display: flex;
     flex-direction: column;
-    background-color: #f8eaf1 ;
-    color: #333;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    padding: .5rem;
-}
-
-.introducao h2{
-    color: #c77dbb;
+    min-height: 100vh;
 }
